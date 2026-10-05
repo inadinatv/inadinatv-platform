@@ -592,7 +592,7 @@ class IPTV_Bot_Pro:
                 "added_time": item.get("added_time", "")
             })
 
-        js_inj = f"const categoryData = {{ 'iptv_list': {{ 'items': {json.dumps(items_for_html, ensure_ascii=False)} }} }}; const activeCategoryKey = 'iptv_list';"
+        js_inj = f"let categoryData = {{ 'iptv_list': {{ 'items': {json.dumps(items_for_html, ensure_ascii=False)} }} }}; const activeCategoryKey = 'iptv_list';"
         template = self.get_html_template()
         
         if not template:
@@ -2679,6 +2679,29 @@ class IPTV_Bot_Pro:
             });
         }
 
+        async function loadIptvData() {
+            try {
+                const response = await fetch('../ozel_iptv_listem.json?ts=' + Date.now(), { cache: 'no-store' });
+                if (!response.ok) throw new Error('HTTP ' + response.status);
+                const records = await response.json();
+                const now = new Date();
+                const items = Array.isArray(records) ? records.map(item => {
+                    let isNew = false;
+                    if (item.added_date) {
+                        const parts = item.added_date.split('.').map(Number);
+                        if (parts.length === 3) {
+                            const added = new Date(parts[2], parts[1] - 1, parts[0]);
+                            isNew = Math.floor((now - added) / 86400000) <= 2;
+                        }
+                    }
+                    return { title: item.title, url: item.m3u_url || '#', image: item.image || '', web_link_url: item.web_link_url || '#', is_new: isNew, added_date: item.added_date || '', added_time: item.added_time || '' };
+                }) : [];
+                if (items.length) categoryData = { iptv_list: { items } };
+            } catch (error) {
+                console.warn('Canlı IPTV listesi alınamadı; gömülü yedek kullanılıyor.', error);
+            }
+            render();
+        }
         (function() { 
             const savedTheme = localStorage.getItem('theme'); 
             if (savedTheme === 'light') toggleTheme(); 
@@ -2687,7 +2710,7 @@ class IPTV_Bot_Pro:
                 document.getElementById('adminBtn').style.display = "flex"; 
                 document.body.classList.add('admin-mode'); 
             } 
-            render(); 
+            loadIptvData(); 
             setTimeout(listenToData, 500); 
             setTimeout(initPresence, 1000); 
             setTimeout(listenToAllPrivateChats, 1500);
