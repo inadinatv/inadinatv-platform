@@ -1,5 +1,13 @@
 [
     {
+        "title": "🔥 TOPLU LİSTE (12 Panel / 1 Sunucu) [11:30]",
+        "m3u_url": "http://glbfx.com:8080/get.php?username=FerideunlusoyTV&password=wJqCuX6vz64qDFxe&type=m3u_plus&output=ts",
+        "web_link_url": "https://telegra.ph/InAdina-TV-Liste---06102026-112940-10-06-2",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4yG_juMJsuYS1fMI3WD6l6yqJTAo80TL3k6NqS2G63PIwAxwarsjUuTE&s=10",
+        "added_date": "06.10.2026",
+        "added_time": "11:30"
+    },
+    {
         "title": "🔥 TOPLU LİSTE (12 Panel / 1 Sunucu) [11:29]",
         "m3u_url": "http://glbfx.com:8080/get.php?username=Smtkaraglmez@fxeu&password=rS7GYsFUbrCsG&type=m3u_plus&output=ts",
         "web_link_url": "https://telegra.ph/InAdina-TV-Liste---06102026-112939-10-06",
@@ -2390,13 +2398,5 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4yG_juMJsuYS1fMI3WD6l6yqJTAo80TL3k6NqS2G63PIwAxwarsjUuTE&s=10",
         "added_date": "18.09.2026",
         "added_time": "00:04"
-    },
-    {
-        "title": "🔥 TOPLU LİSTE (2 Panel / 1 Sunucu) [00:00]",
-        "m3u_url": "http://halatv.org/get.php?username=Marwa&password=8484874&type=m3u_plus",
-        "web_link_url": "https://ay.live/j6NQM",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4yG_juMJsuYS1fMI3WD6l6yqJTAo80TL3k6NqS2G63PIwAxwarsjUuTE&s=10",
-        "added_date": "18.09.2026",
-        "added_time": "00:00"
     }
 ]
