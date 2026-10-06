@@ -1,6 +1,14 @@
 [
     {
         "title": "🔥 TOPLU LİSTE (13 Panel / 1 Sunucu) [11:53]",
+        "m3u_url": "http://glbfx.com:8080/get.php?username=MichelElster&password=DEVfX5VM&type=m3u_plus&output=ts",
+        "web_link_url": "https://telegra.ph/InAdina-TV-Liste---06102026-115014-10-06-2",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4yG_juMJsuYS1fMI3WD6l6yqJTAo80TL3k6NqS2G63PIwAxwarsjUuTE&s=10",
+        "added_date": "06.10.2026",
+        "added_time": "11:53"
+    },
+    {
+        "title": "🔥 TOPLU LİSTE (13 Panel / 1 Sunucu) [11:53]",
         "m3u_url": "http://glbfx.com:8080/get.php?username=MEURUxaG&password=oRa8Ag9Y&type=m3u_plus&output=ts",
         "web_link_url": "https://telegra.ph/InAdina-TV-Liste---06102026-115013-10-06-3",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4yG_juMJsuYS1fMI3WD6l6yqJTAo80TL3k6NqS2G63PIwAxwarsjUuTE&s=10",
@@ -2390,13 +2398,5 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4yG_juMJsuYS1fMI3WD6l6yqJTAo80TL3k6NqS2G63PIwAxwarsjUuTE&s=10",
         "added_date": "19.09.2026",
         "added_time": "00:12"
-    },
-    {
-        "title": "🔥 TOPLU LİSTE (107 Panel / 1 Sunucu) [15:19]",
-        "m3u_url": "http://bvv01.com:8080/get.php?username=rczcw9fW&password=nYcXX05uzkUs7Rxe&type=m3u",
-        "web_link_url": "https://ay.live/nM0",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4yG_juMJsuYS1fMI3WD6l6yqJTAo80TL3k6NqS2G63PIwAxwarsjUuTE&s=10",
-        "added_date": "18.09.2026",
-        "added_time": "15:19"
     }
 ]
