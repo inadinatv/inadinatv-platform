@@ -1,5 +1,13 @@
 [
     {
+        "title": "🔥 TOPLU LİSTE (3 Panel / 1 Sunucu) [23:55]",
+        "m3u_url": "http://devtv.store:8080/get.php?username=Jannkusch&password=tWnvF4xpGey2&type=m3u_plus",
+        "web_link_url": "https://telegra.ph/InAdina-TV-Liste---21102026-235434-10-21-2",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4yG_juMJsuYS1fMI3WD6l6yqJTAo80TL3k6NqS2G63PIwAxwarsjUuTE&s=10",
+        "added_date": "21.10.2026",
+        "added_time": "23:55"
+    },
+    {
         "title": "🔥 TOPLU LİSTE (4 Panel / 1 Sunucu) [23:55]",
         "m3u_url": "http://devtv.store:8080/get.php?username=murathan63&password=823173bc79057ca7&type=m3u_plus",
         "web_link_url": "https://telegra.ph/InAdina-TV-Liste---21102026-235434-10-21",
@@ -2390,13 +2398,5 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4yG_juMJsuYS1fMI3WD6l6yqJTAo80TL3k6NqS2G63PIwAxwarsjUuTE&s=10",
         "added_date": "27.09.2026",
         "added_time": "18:35"
-    },
-    {
-        "title": "🔥 TOPLU LİSTE (2 Panel / 1 Sunucu) [17:03]",
-        "m3u_url": "http://eu.kartal38.com:8080/get.php?username=play&password=live.php?mac=00:1A:79:0D:39:B8&stream=95551&extension=ts&play_token=OW6yvBfMoB&type=m3u_plus",
-        "web_link_url": "https://telegra.ph/INADINA-TV-LISTE---27092026-170334-09-27",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4yG_juMJsuYS1fMI3WD6l6yqJTAo80TL3k6NqS2G63PIwAxwarsjUuTE&s=10",
-        "added_date": "27.09.2026",
-        "added_time": "17:03"
     }
 ]
