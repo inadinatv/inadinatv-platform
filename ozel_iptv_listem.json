@@ -1,5 +1,13 @@
 [
     {
+        "title": "🔥 TOPLU LİSTE (1 Panel / 1 Sunucu) [10:55]",
+        "m3u_url": "http://worldiptv.nl:80/get.php?username=play&password=live.php?mac=00:1A:79:1A:A9:D7&stream=14753&extension=ts&play_token=OQ1cyDuOAL&type=m3u_plus",
+        "web_link_url": "https://telegra.ph/InAdina-TV-Liste---22102026-105553-10-22",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4yG_juMJsuYS1fMI3WD6l6yqJTAo80TL3k6NqS2G63PIwAxwarsjUuTE&s=10",
+        "added_date": "22.10.2026",
+        "added_time": "10:55"
+    },
+    {
         "title": "🔥 TOPLU LİSTE (1042 Panel / 1 Sunucu) [09:40]",
         "m3u_url": "http://devtv.store:8080/get.php?username=sdk7815&password=sdk0711gg00bb&type=m3u_plus",
         "web_link_url": "https://telegra.ph/InAdina-TV-Liste---22102026-093948-Part-111-10-22",
@@ -2390,13 +2398,5 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4yG_juMJsuYS1fMI3WD6l6yqJTAo80TL3k6NqS2G63PIwAxwarsjUuTE&s=10",
         "added_date": "03.10.2026",
         "added_time": "20:06"
-    },
-    {
-        "title": "🔥 TOPLU LİSTE (1 Panel / 1 Sunucu) [20:05]",
-        "m3u_url": "http://tv.zsmarters.xyz:8080/get.php?username=Bilaltv&password=p6N9jE6&type=m3u_plus",
-        "web_link_url": "https://telegra.ph/InAdina-TV-Liste---03102026-200506-10-03",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4yG_juMJsuYS1fMI3WD6l6yqJTAo80TL3k6NqS2G63PIwAxwarsjUuTE&s=10",
-        "added_date": "03.10.2026",
-        "added_time": "20:05"
     }
 ]
